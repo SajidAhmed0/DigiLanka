@@ -1,0 +1,80 @@
+:root {
+  --primary: #1aac83;
+  --error: #e7159e;
+}
+
+/* body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+} */
+
+.pages {
+  max-width: 1700px;
+  padding: 20px;
+  margin: 0 auto;
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 100px;
+}
+
+.driver-details {
+  background: #f9f9f9;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.driver-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: #eb4c4c;
+}
+
+.driver-details p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.driver-details span {
+  color: #1e88e5;
+}
+
+button.delete {
+  background: #e53935;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.updateBtn {
+  background: #4caf50;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.driver-details li {
+  color: #e53935;
+}
+
+
+
+

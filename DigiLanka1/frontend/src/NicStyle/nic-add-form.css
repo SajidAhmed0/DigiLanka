@@ -1,0 +1,307 @@
+.login-form{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    background-color: rgba(128, 128, 128, 0.342);
+    text-align: left;
+    border-radius: 20px;
+}
+
+.user-profile{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    background-color: rgba(128, 128, 128, 0.342);
+    text-align: left;
+    border-radius: 20px;
+}
+
+
+
+.p-details  h3{
+    font-weight: normal;
+    font-size: medium;
+    margin-left: 30px;
+    height: 20px;
+    width: 50%;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.36);
+    border: 0;
+    border-radius: 5px;
+}
+
+.user-profile  h3{
+    font-weight: normal;
+    font-size: medium;
+    margin-left: 30px;
+    height: 20px;
+    width: 90%;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.36);
+    border: 0;
+    border-radius: 5px;
+}
+
+#profile-pic{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 25%;
+    border: 2px solid black;
+    background-color: gray;
+}
+
+.p-details #up-profile-pic{
+    width: 100px;
+    height: 100px;
+    margin-left: 40%;
+}
+
+#up-profile-pic{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 50%;
+    border: 2px solid black;
+    background-color: gray;
+}
+
+.inputField{
+    display: flex;
+    margin: 5px;
+    margin-left: 50px;
+}
+
+.inputField input[type = 'text']{
+    margin-left: 15px;
+    height: 20px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.368);
+    border: 0;
+    border-radius: 5px;
+}
+.inputField input[type = 'date']{
+    margin-left: 15px;
+    height: 20px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.368);
+    border: 0;
+    border-radius: 5px;
+}
+.submitBtn{
+    width: 100px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 50%;
+    border: 0px;
+}
+
+.backBtn{
+    width: 100px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 10%;
+    border: 0px;
+    
+}
+
+.deleteBtn{
+    width: 100px;
+    height: 25px;
+    background-color: rgba(233, 88, 88, 0.816);
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 10%;
+    border: 0px;
+    
+}
+
+.reportBtn{
+    width: 100px;
+    height: 25px;
+    background-color: rgba(88, 165, 233, 0.712);
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 40%;
+    border: 0px;
+}
+
+#backHome{
+    text-decoration: none;
+    color: inherit;
+    width: fit-content;
+    height: 40px;
+    margin: 15px;
+    padding: 10px;
+    /* padding-left: 15px; */
+    background-color: rgba(128, 128, 128, 0.684);
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: 20px;
+}
+
+#getNic-form{
+    background-color: rgba(128, 128, 128, 0.393);
+    width: fit-content;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#getNic-form button{
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.392);
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#getNic-form input{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.21);
+    border: 0px;
+    border-radius: 5px;
+}
+
+/* #homeNav Link{
+    
+    width: 100px;
+} */
+
+#homeNav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homeNav li{
+    list-style: none;
+    display: inline;
+
+}
+
+#homeNav a{
+    text-decoration: none;
+    color: whitesmoke;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(11, 109, 237, 0.653);
+    padding: 15px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+}
+
+
+#getNic-form2{
+    background-color: rgba(128, 128, 128, 0.393);
+    width: 1000px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#getNic-form2 button{
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.392);
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#getNic-form2 input{
+    background-color: rgba(0, 0, 0, 0.21);
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.hea{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#homeText{
+    margin-top: 200px;
+}
+
+#homeText h1{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+
+.tableDeleteBtn{
+    width: 100px;
+    height: 25px;
+    background-color: rgba(233, 88, 88, 0.816);
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 5px;
+    
+}
+
+.tableSubmitBtn{
+    width: 100px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 5px;
+}
+
+.peoples > table{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    
+    background: rgba(128, 128, 128, 0.393);
+
+}
+
+.peoples > table  th{
+    background-color: rgba(49, 50, 50, 0.286);
+    height: 50px;
+}
+.peoples > table  tr{
+    background-color: rgba(128, 128, 128, 0.393);
+}
+
+#reportData{
+    width: 50%;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px, solid, grey;
+    text-align: left;
+    
+}
+
+#reportBtn{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 0;
+    background: rgba(128, 128, 128, 0.392);
+}

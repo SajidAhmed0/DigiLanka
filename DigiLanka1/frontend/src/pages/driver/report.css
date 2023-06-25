@@ -1,0 +1,57 @@
+/* generate report */
+
+.driver-report {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  padding: 20px;
+}
+
+.driver-report h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: #e53935;
+}
+
+.driver-report p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.report-logo1 {
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+
+}
+
+.report-logo2 {
+  height: 100px;
+  width: 100px;
+
+}
+
+.report-button{
+  background: #4caf50;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.report-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-hr {
+  border: 5px solid;
+}

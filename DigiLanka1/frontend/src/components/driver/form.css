@@ -1,0 +1,52 @@
+/* driver form */
+
+.add-form input,select {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-form select {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 25%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-form button {
+  background: #4caf50;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+
+.add-form input.check {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 15%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-form input[type="submit"] {
+  background: var(--primary);
+}
+
+.error  {
+  color: #e53935;
+}

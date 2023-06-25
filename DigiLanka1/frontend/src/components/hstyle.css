@@ -1,0 +1,249 @@
+/* * {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  min-height: 502.5vh;
+  background: #333;
+} */
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+/* img {
+  width: 400px;
+  height: 300px;
+} */
+/* .container nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 60px;
+  background-color: #3586ff;
+  color: white;
+}
+nav .webname {
+  float: left;
+  margin: 15px 0 15px 30px;
+  font-size: 25px;
+} */
+/* nav ul {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 75%;
+}
+nav li {
+  display: inline-block;
+  line-height: 56px;
+  margin: 0 10px;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.5s all;
+} */
+/* a:hover {
+  color: #1c2833;
+  border-bottom: 5px solid white;
+} */
+#search {
+  position: relative;
+  margin-top: 10px;
+  padding: 5px 10px 5px 20px;
+  width: 250px;
+  height: 40px;
+  border-bottom: 2px solid#006699;
+  font-size: 15px;
+  color: #3586ff;
+  border-radius: 50px;
+  align-items: center;
+  float: right;
+  z-index: 0;
+}
+
+#submit {
+  position: relative;
+  left: -40px;
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  float: right;
+  background-color: #3586ff;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+}
+#btn {
+  display: none;
+}
+/* .check {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 60px;
+  margin-right: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transform: rotate(-90deg);
+  display: none;
+} */
+/* @media (max-width: 1100px) {
+  nav ul {
+    position: fixed;
+    width: 40%;
+    height: 100vh;
+    top: 60px;
+    left: 100%;
+    text-align: center;
+    background-color: #2c3e50;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+  }
+  nav ul li a {
+    font-size: 20px;
+    color: white;
+  }
+  .check {
+    display: block;
+  }
+  #btn:checked ~ ul {
+    left: 60%;
+  }
+}
+@media (max-width: 670px) {
+  #submit,
+  #search {
+    display: none;
+  }
+} */
+
+footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 0.01% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .social_icon,
+footer .menu {
+  position: relative;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer .social_icon li,
+footer .menu li {
+  list-style: none;
+}
+
+footer .social_icon li a,
+footer .menu li a {
+  font-size: 2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .social_icon li a:hover {
+  transform: translateY(-10px);
+}
+
+footer .menu li a {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+footer .menu li a:hover {
+  opacity: 1;
+}
+footer .polo {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+footer .wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  /* background: url(wave.png); */
+  background-size: 1000px 100px;
+}
+footer .wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animatewave 4s linear infinite;
+}
+footer .wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 15px;
+  animation: animatewave_02 4s linear infinite;
+}
+footer .wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 0;
+  animation: animatewave 3s linear infinite;
+}
+footer .wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animatewave_02 3s linear infinite;
+}
+
+/* @keyframes animatewave {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes animatewave_02 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+} */
